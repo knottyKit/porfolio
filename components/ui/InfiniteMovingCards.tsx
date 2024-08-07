@@ -93,7 +93,7 @@ export const InfiniteMovingCards = ({
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1)100%)",
             }}
-            key={item.name}
+            key={idx}
           >
             <blockquote>
               <div
@@ -104,6 +104,9 @@ export const InfiniteMovingCards = ({
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
+                <div className="me-3">
+                  <img src="/profile.svg" alt="profile" />
+                </div>
                 <span className="flex flex-col gap-1">
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.name}

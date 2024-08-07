@@ -17,7 +17,7 @@ const RING_PROPAGATION_SPEED = 3;
 const aspect = 1.2;
 const cameraZ = 300;
 
-type Position = {
+type Position = {    
   order: number;
   startLat: number;
   startLng: number;
