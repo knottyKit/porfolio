@@ -140,31 +140,31 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
+      names: "cloudinary",
       img: "/cloud.svg",
       nameImg: "/cloudName.svg",
     },
     {
       id: 2,
-      name: "appwrite",
+      names: "appwrite",
       img: "/app.svg",
       nameImg: "/appName.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
+      names: "HOSTINGER",
       img: "/host.svg",
       nameImg: "/hostName.svg",
     },
     {
       id: 4,
-      name: "stream",
+      names: "stream",
       img: "/s.svg",
       nameImg: "/streamName.svg",
     },
     {
       id: 5,
-      name: "docker.",
+      names: "docker.",
       img: "/dock.svg",
       nameImg: "/dockerName.svg",
     },
